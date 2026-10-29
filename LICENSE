@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 RedmiBook 13 Monterey OpenCore EFI contributors
+
+---
+
+适用范围说明（Scope Note）
+
+本许可证仅适用于本仓库中由本仓库作者编写的**文字与配置文件**，具体包括：
+
+  · README.md、DISCLAIMER.md、CHANGELOG.md、THIRD-PARTY.md、LICENSE
+  · docs/ 目录下的全部 Markdown 文档
+  · EFI/OC/config.plist 中作者自行调整的配置项
+  · EFI/OC/Kexts/AppleALC.kext/Contents/Info.plist 中针对 ALC256
+    LayoutID 101 的引脚配置修改（ConfigData）
+
+本许可证**不适用于** EFI/ 目录下的其它二进制文件（包括但不限于 .efi、.kext、.aml
+文件及其内部资源）。这些文件分别归其上游开源项目所有，并遵循各项目自身的许可证，
+详见 THIRD-PARTY.md。再分发这些二进制文件时，必须同时遵守其原始许可证。
+
+---
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
